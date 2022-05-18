@@ -52,7 +52,7 @@ jobs:
           lfs: false
 
       - name: Check Site Spelling
-        uses: rojopolis/spellcheck-github-actions@0.21.1
+        uses: rojopolis/spellcheck-github-actions@0.24.0
         with:
           config_path: doc/.spellcheck.yml # put path to configuration file here
           source_files: doc/content/en/**/*.md
@@ -150,7 +150,7 @@ jobs:
           extended: true
 
       - name: Setup Node
-        uses: actions/setup-node@v2.5.1
+        uses: actions/setup-node@v3.1.1
         with:
           node-version: '12.x'
 
