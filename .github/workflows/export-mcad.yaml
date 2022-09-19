@@ -86,7 +86,7 @@ jobs:
 
 
     - name: Upload STLs as Artifacts
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: LumenPnP-STLs
         path: ~/LumenPnP-STLs.zip
@@ -94,7 +94,7 @@ jobs:
         retention-days: 60
 
     - name: Upload DXFs as Artifacts
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: LumenPnP-DXFs
         path: ~/LumenPnP-DXFs.zip
